@@ -1,14 +1,14 @@
 @font-face {
     font-family: aprentas;
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    src: url('');
 }
 
 html {
-    grid-template-columns: 
+    grid-template-areas: 
     "nav header"
     "main main"
     "footer footer";
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 80%;
     height: 100%;
     width: 100%;
 }
