@@ -1,11 +1,11 @@
 @font-face {
     font-family: aprentas;
-    src: url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Lato&family=Roboto&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 }
 
 html {
     grid-template-columns: 
-    "nav haeder"
+    "nav header"
     "main main"
     "footer footer";
     grid-template-columns: 50% 50%;
@@ -24,5 +24,11 @@ nav {
 
 body {
     font-family: aprentas;
-    
+    background-color: black;
+    color: white;
+    user-zoom: none;
+}
+
+h1 {
+    user-select: none;
 }
