@@ -1,5 +1,21 @@
+@font-face {
+    font-family: aprentas;
+    src: url('MADE\ TOMMY\ ExtraBold_PERSONAL\ USE.otf');
+}
+
+
+
+
+
+
+
+
+
+
+
 .div1{
     background-color: darkgrey;
+    font-family: aprentas;
    
 }
 

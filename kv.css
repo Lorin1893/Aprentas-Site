@@ -1,0 +1,18 @@
+@font-face {
+    font-family: aprentas;
+    src: url('MADE\ TOMMY\ ExtraBold_PERSONAL\ USE.otf');
+}
+
+body {
+    font-family: aprentas, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
