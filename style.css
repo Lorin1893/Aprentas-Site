@@ -27,6 +27,8 @@ body {
     background-color:black;
     color: white;
     user-zoom: none;
+    transition: background-color 0.5s, color 0.5s; 
+    font-family: aprentas, sans-serif;
 }
 
 h1 {
@@ -40,6 +42,71 @@ h1 {
 
 .aprentaslogo:hover {
     opacity: 1;
-    transition: ease-in 0.4s; 
+    transition: ease-in 0.4s;
 }
 
+
+nav {
+    
+}
+
+.sidebar {
+    align-items: left;
+    grid-area: nav;
+    width: 12%;
+    height: 87%;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .sidebar:hover {
+    width: 85%;
+  }
+
+  .sidebar ul {
+    position: relative;
+    height: 100%;
+  }
+
+  .sidebar ul li {
+    list-style: none;
+  }
+.sidebar ul li:hover {
+    background: #f3f3f3;
+}
+
+.sidebar ul li a {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.sidebar ul li a .icon {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.sidebar ul li a .text {
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.dark-mode {
+    background-color: #a7a4a4;
+    color: #fff;
+    transition: ease-in 1s;
+}
